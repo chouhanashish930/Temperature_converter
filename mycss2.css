@@ -1,0 +1,110 @@
+* {
+    left: 0;
+    right: 0s;
+    top: 0;
+    bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40%;
+    margin-left: 20px;
+    font-size: 180%;
+    color: rgba(63, 62, 137, 0.827);
+    word-spacing: 5px;
+    box-shadow: 5px 5px 5px solid blue;
+    background-color: cover;
+    font-weight: 2000;
+}
+
+body {
+    background: url(temp1.jpg )no-repeat;
+    color-interpolation-filters: sRGB;
+    filter: brightness(50%);
+    filter: contrast(500%);
+    background-size: cover;
+    background-position: 10px;
+    position: relative;
+    margin: 0;
+    color: rgb(19, 19, 219);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.conrainer,
+.conrainer2 {
+    top: 0%;
+    border: 5px solid black transperent;
+    border-style: groove;
+    border-radius: 12px;
+    box-shadow: 3px 3px 12px rgba(1, 1, 44, 0.966);
+    left: 5px;
+    filter: contrast(10%);
+    width: 500px;
+    align-items: center;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 10%;
+    width: 30%;
+    height: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+dt {
+    font-style: italic;
+    font-display: flex;
+    filter: none;
+    color: bold black;
+    font-size: 30px;
+}
+
+input[type] {
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    height: 20%;
+}
+
+input[placeholder] {
+    text-align: center;
+    color: white;
+    color: black;
+    font-size: 18px;
+    background-color: transparent;
+    box-shadow: 3px 3px 12px rgba(1, 1, 44, 0.966);
+}
+
+button {
+    font-size: 18px;
+    background-color: transparent;
+    box-shadow: 3px 3px 12px rgba(1, 1, 44, 0.966);
+    align-items: center;
+    background-color: blue;
+    color: white;
+    margin-left: 5px;
+}
+
+select,
+option {
+    color: white;
+    background-color: blue;
+}
+
+#c1 {
+    background-color: blue;
+}
+
+p {
+    font-size: 80%;
+    background-color: transparent;
+    box-shadow: 3px 3px 12px rgba(1, 1, 44, 0.966);
+    align-items: center;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
